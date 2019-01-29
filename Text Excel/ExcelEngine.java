@@ -5,4 +5,8 @@ public class ExcelEngine extends ExcelBase {
       
       engine.runInputLoop();
    }
+   public String processCommand(String input){
+      
+      return GridBase.grid.processCommand(input);
+   }
 }
